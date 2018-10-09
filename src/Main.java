@@ -3,7 +3,7 @@ public class Main
 	public static void main(String[] args)
     {
     	Crawler bug = new Crawler();
-    	int[] results = bug.Crawl("https://httpstat.us/100");
+    	int[] results = bug.Crawl("https://raw.githubusercontent.com/OnAssignment/compass-interview/master/data.json");
     	
     	if (results[0] == 0) System.out.println("No starting url given");
     	else{

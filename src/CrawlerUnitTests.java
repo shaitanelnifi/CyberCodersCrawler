@@ -37,7 +37,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode100() {
+	public void testCrawlWithStatusCode100() {
 		int[] result = bug.Crawl("https://httpbin.org/status/100");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -45,7 +45,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode200() {
+	public void testCrawlWithStatusCode200() {
 		int[] result = bug.Crawl("https://httpbin.org/status/200");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -53,7 +53,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode201() {
+	public void testCrawlWithStatusCode201() {
 		int[] result = bug.Crawl("https://httpbin.org/status/201");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -61,7 +61,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode204() {
+	public void testCrawlWithStatusCode204() {
 		int[] result = bug.Crawl("https://httpbin.org/status/204");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -69,7 +69,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode206() {
+	public void testCrawlWithStatusCode206() {
 		int[] result = bug.Crawl("https://httpbin.org/status/206");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -77,7 +77,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode301() {
+	public void testCrawlWithStatusCode301() {
 		int[] result = bug.Crawl("https://httpbin.org/status/301");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -85,7 +85,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode302() {
+	public void testCrawlWithStatusCode302() {
 		int[] result = bug.Crawl("https://httpbin.org/status/302");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -93,7 +93,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode303() {
+	public void testCrawlWithStatusCode303() {
 		int[] result = bug.Crawl("https://httpbin.org/status/303");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -101,7 +101,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode304() {
+	public void testCrawlWithStatusCode304() {
 		int[] result = bug.Crawl("https://httpbin.org/status/304");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -109,7 +109,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode307() {
+	public void testCrawlWithStatusCode307() {
 		int[] result = bug.Crawl("https://httpbin.org/status/307");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -117,7 +117,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode308() {
+	public void testCrawlWithStatusCode308() {
 		int[] result = bug.Crawl("https://httpbin.org/status/308");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 1);
@@ -125,7 +125,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode401() {
+	public void testCrawlWithStatusCode401() {
 		int[] result = bug.Crawl("https://httpbin.org/status/401");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -133,7 +133,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode403() {
+	public void testCrawlWithStatusCode403() {
 		int[] result = bug.Crawl("https://httpbin.org/status/403");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -141,7 +141,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode404() {
+	public void testCrawlWithStatusCode404() {
 		int[] result = bug.Crawl("https://httpbin.org/status/404");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -149,7 +149,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode406() {
+	public void testCrawlWithStatusCode406() {
 		int[] result = bug.Crawl("https://httpbin.org/status/406");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -157,7 +157,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode407() {
+	public void testCrawlWithStatusCode407() {
 		int[] result = bug.Crawl("https://httpbin.org/status/407");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -165,7 +165,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode410() {
+	public void testCrawlWithStatusCode410() {
 		int[] result = bug.Crawl("https://httpbin.org/status/410");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -173,7 +173,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode412() {
+	public void testCrawlWithStatusCode412() {
 		int[] result = bug.Crawl("https://httpbin.org/status/412");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -181,7 +181,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode416() {
+	public void testCrawlWithStatusCode416() {
 		int[] result = bug.Crawl("https://httpbin.org/status/416");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -189,7 +189,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode451() {
+	public void testCrawlWithStatusCode451() {
 		int[] result = bug.Crawl("https://httpbin.org/status/451");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -197,7 +197,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode500() {
+	public void testCrawlWithStatusCode500() {
 		int[] result = bug.Crawl("https://httpbin.org/status/500");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -205,7 +205,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode501() {
+	public void testCrawlWithStatusCode501() {
 		int[] result = bug.Crawl("https://httpbin.org/status/501");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -213,7 +213,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode502() {
+	public void testCrawlWithStatusCode502() {
 		int[] result = bug.Crawl("https://httpbin.org/status/502");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -221,7 +221,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode503() {
+	public void testCrawlWithStatusCode503() {
 		int[] result = bug.Crawl("https://httpbin.org/status/503");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);
@@ -229,7 +229,7 @@ public class CrawlerUnitTests {
 	}
 	
 	@Test
-	public void testCrawlWithCode504() {
+	public void testCrawlWithStatusCode504() {
 		int[] result = bug.Crawl("https://httpbin.org/status/504");
 		assertTrue(result[0] == 1);
 		assertTrue(result[1] == 0);

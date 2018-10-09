@@ -7,8 +7,6 @@ import org.json.JSONObject;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 
-
-
 public class Crawler
 {
 	int httpRequestCounter = 0;
